@@ -208,6 +208,14 @@ const projectsList = [
         image: "cs342",
     },
     {
+        name: "Personal Website 3.0",
+        year: "2023",
+        description: "The third iteration of my personal website. By this point I have become very proficient in react and typescript, and have used my skills to create a website that is both aesthetically pleasing and functional. This website uses react hooks for dynamic content, and is fully responsive.",
+        tags: ["typescript", "react", "web-dev", "css", "html"],
+        image: "website2023",
+
+    },
+    {
         name: "OMEGA DAY",
         year: "2023",
         description: "A First Person Shooter game written using three js. The game consists of a gravity and collision system written from scratch, and artificial inteeligence for enemies. Each enemy takes in multiple input nodes and calculates correct bahviour using a simple neural network.",
@@ -235,14 +243,7 @@ const projectsList = [
         tags: ["python", "ai", "neural networks"],
         image: "nn-2",
     },
-    {
-        name: "Personal Website 3.0",
-        year: "2023",
-        description: "The third iteration of my personal website. By this point I have become very proficient in react and typescript, and have used my skills to create a website that is both aesthetically pleasing and functional. This website uses react hooks for dynamic content, and is fully responsive.",
-        tags: ["typescript", "react", "web-dev"],
-        image: "website2023",
 
-    },
     {
         name: "Final Year Project",
         year: "2023",

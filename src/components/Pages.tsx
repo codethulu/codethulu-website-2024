@@ -126,7 +126,6 @@ function About() {
 }
 
 function Projects() {
-    projectsList.reverse();
     const [projects, setProjects] = useState(projectsList.filter((project: { tags: string | string[]; }) => project.tags.includes("favourites")));
     const allProjects = () => {
         setProjects(projectsList);

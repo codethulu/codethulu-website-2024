@@ -253,4 +253,5 @@ const projectsList = [
     },
 
 ]
+projectsList.reverse();
 export default projectsList;

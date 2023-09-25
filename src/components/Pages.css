@@ -1,0 +1,112 @@
+.banner{
+    background-color: rgb(221, 77, 21);
+    margin-top:4%;
+}
+
+
+
+.contact-button{
+    width: 13vw;
+    height: 20vw;
+    vertical-align: top;
+    margin: 10px;
+    border-radius: 20px;
+    transition: all 0.2s ease-in-out;
+    background-position: center;
+    background-size: contain;
+    font-family: Victormono-Bold;
+    font-size: 1em;
+    border: none;
+
+}
+
+.contact-button h3 {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    font-family: Neutro-Extrabold;
+    font-size: 1.5em;
+}
+
+@media (max-width: 1500px) { 
+
+    .contact-button{
+    width: 20vw;
+    height: 25vw;
+    vertical-align: top;
+    margin: 10px;
+    border-radius: 20px;
+    transition: all 0.2s ease-in-out;
+    background-position: center;
+    background-size: contain;
+    font-family: Victormono-Bold;
+    font-size: 0.9em;
+    border: none;
+
+}
+
+    .contact-button h3 {
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+        color: black;
+        font-family: Neutro-Extrabold;
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 1200px) { 
+
+    .contact-button{
+    width: 20vw;
+    height: 25vw;
+    vertical-align: top;
+    margin: 10px;
+    border-radius: 20px;
+    transition: all 0.2s ease-in-out;
+    background-position: center;
+    background-size: contain;
+    font-family: Victormono-Bold;
+    font-size: 0.8em;
+    border: none;
+
+}
+
+    .contact-button h3 {
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+        color: black;
+        font-family: Neutro-Extrabold;
+        font-size: 1.5em;
+    }
+}
+
+.contact-divider{
+    margin-inline: 20px;
+    margin-block: 10px;
+    height: 5px;
+    width: 100% -5px;
+    background-color: black;
+}
+
+.contact-button:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+    
+}
+
+.contact-logo{
+  width: 50%;
+  vertical-align: bottom;
+}
+
+.footer{
+    background-color: rgb(221, 77, 21);
+    color: white;
+    margin: 0;
+    font-family: Victormono-Bold;
+    padding: 20px;
+    font-size: 1em;
+}

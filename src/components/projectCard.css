@@ -1,0 +1,287 @@
+
+.project-card{
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    height: auto;
+    width: 100%;
+    
+    vertical-align: top;
+    transition: all 0.2s ease-in-out;
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+}
+
+
+.project-card:hover{
+    opacity: 1.00;
+    /* transform: translateY(-10px); */
+}
+
+.project-card h1{
+    text-align: left;
+    font-family: neutro-extrabold;
+    color: rgb(0, 0, 0);
+    font-size: 16pt;
+    padding-inline: 0px;
+    margin: 0px 20px;
+}
+.project-card h2{
+    text-align: left;
+    font-family: Victormono-Bold;
+    color: rgb(0, 0, 0);
+    font-size: 12pt;
+    padding-inline: 0px;
+    margin: 5px 20px;
+}
+.project-card p{
+    text-align: left;
+    font-family: Victormono-Bold;
+    color: rgb(118, 105, 105);
+    font-size: 10pt;
+    padding-inline: 0px;
+    margin: 20px 20px;
+}
+
+
+.tag-container{
+    margin: 0px 20px;
+    margin-bottom: 10px;
+}
+
+.tag{
+    color: white;
+    display: inline-block;
+    background-color: rgb(92, 92, 92);
+    border-radius: 15px;
+    font-family: Victormono-Bold;
+
+    padding: 5px;
+    padding-inline: 10px;
+    text-transform: uppercase;
+    font-size: 8pt;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    transition-duration: 0.3s;
+    border: none;
+    text-align: center;
+
+}
+.tag:hover{
+    transform: scale(1.04) translateY(-3px);
+    cursor: pointer;
+
+}
+
+.card-divider{
+    margin-inline: 20px;
+    margin-block: 10px;
+    height: 5px;
+    width: 100% -5px;
+    background-color: black;
+}
+
+@media (min-width: 768px) { 
+    .project-card{
+        width: 50%;
+    }
+    .tag{
+        font-size: 11pt;
+
+    }
+    .project-card p{
+        font-size: 11pt;
+    }
+}
+@media (min-width: 1200px) { 
+    .project-card{
+        width: 25%;
+        margin: 20px;
+    }
+    .project-card h1{
+        font-size: 18pt;
+    }
+}
+
+
+.image{
+    background-color: rgb(87, 87, 87);
+    width: 100%;
+    height: 200px;
+    border-radius: 20px 20px 0px 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/404.jpg);
+
+
+}
+.title{
+    background-color: red;
+    width: 60%;
+    height: 100px;
+    margin: auto;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/404.jpg);
+}
+
+.orange{
+    background-color: rgb(218, 123, 0);
+}
+.fire{
+    background-color: rgb(218, 69, 0);
+}
+.red{
+    background-color: rgb(218, 15, 0);
+}
+.ocean{
+    background-color: rgb(34, 145, 209);
+}
+.purple{
+    background-color: rgb(74, 34, 126);
+}
+.green{
+    background-color: rgb(24, 131, 104);
+}
+.leonard{
+    background-color: rgb(21, 133, 151);
+}
+.grass{
+    background-color: rgb(66, 185, 125);
+}
+.blue{
+    background-color: rgb(66, 123, 185);
+}
+.cobalt{
+    background-color: rgb(59, 72, 134);
+}
+.snake{
+    background-color: rgb(142, 165, 40);
+}
+.rust{
+    background-color: rgb(190, 120, 92);
+}
+.rose{
+    background-color: rgb(222, 153, 222);
+}
+.pink{
+    background-color: rgb(248, 100, 248);
+}
+.cppc{
+    background: linear-gradient(45deg, rgb(24, 131, 104) 0%,  rgb(21, 133, 151) 100%);
+}
+.image-robot-maze{
+    background-image: url(../images/projects/robot-maze.png);
+}
+.image-security-linux{
+    background-image: url(../images/projects/cs140.jpg);
+}
+.image-essay{
+    background-image: url(../images/projects/essay.png);
+}
+.image-waffles{
+    background-image: url(../images/projects/cs126.jpg);
+}
+.image-ncurses{
+    background-image: url(../images/projects/ncurses.png);
+}
+.image-old-website{
+    background-image: url(../images/projects/old-website.jpg);
+}
+.image-ldc{
+    background-image: url(../images/projects/cs141-1.jpg);
+}
+.image-scratch-clone{
+    background-image: url(../images/projects/cs141.png);
+}
+.image-sytes{
+    background-image: url(../images/projects/sytes.jpg);
+}
+ .image-chamber{
+    background-image: url(../images/projects/chamber.jpg);
+}
+.image-ursina-elements{
+    background-image: url(../images/projects/ursina.jpg);
+} 
+.image-warwick-labour-website{
+    background-image: url(../images/projects/warwick-labour-website.jpg);
+}
+.image-go-tools{
+    background-image: url(../images/projects/go-tools.jpg);
+}
+.title-chamber{
+    background-image: url(../images/projects/title-chamber.jpg);
+}
+.image-hurdle{
+    background-image: url(../images/projects/cs141-1-a.jpg);
+}
+.image-website2{
+    background-image: url(../images/projects/website2.jpg);
+}
+.image-parser{
+    background-image: url(../images/projects/parser.jpg);
+}
+.image-mentor-connect{
+    background-image: url(../images/projects/mentor-connect.jpg);
+}
+.image-cs255{
+    background-image: url(../images/projects/cs255.jpg);
+}
+.image-cs258{
+    background-image: url(../images/projects/cs258.jpg);
+}
+.image-cs241{
+    background-image: url(../images/projects/cs241.jpg);
+}
+.image-cs259{
+    background-image: url(../images/projects/cs259.jpg);
+}
+.image-cs262{
+    background-image: url(../images/projects/cs262.jpg);
+}
+.image-love-garden{
+    background-image: url(../images/projects/love-garden.jpg);
+
+}
+.image-next{
+    background-image: url(../images/projects/next.jpg);
+}
+.image-bitventory{
+    background-image: url(../images/projects/bitventory.jpg);
+}
+.image-compiler{
+    background-image: url(../images/projects/cs325.jpg);
+}
+.image-cs342{
+    background-image: url(../images/projects/cs342.jpg);
+}
+
+.image-cs324{
+    background-image: url(../images/projects/cs324.jpg);
+}
+
+.image-synthetica{
+    background-image: url(../images/projects/overthrow.jpg);
+}
+
+.image-nn-1{
+    background-image: url(../images/projects/nn-1.jpg);
+}
+
+.image-nn-2{
+    background-image: url(../images/projects/nn-2.jpg);
+}
+
+.image-website2023{
+    background-image: url(../images/projects/website3.jpg);
+}
+
+.image-tanagram{
+    background-image: url(../images/projects/tanagram.jpg);
+}

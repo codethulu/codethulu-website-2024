@@ -1,38 +1,254 @@
-.App {
+@font-face {
+  font-family: 'poppins-bold';
+  src: url('./fonts/Poppins-Bold.ttf')
+} 
+
+@font-face {
+  font-family: 'poppins-regular';
+  src: url('./fonts/Poppins-Regular.ttf')
+}
+
+@font-face {
+  font-family: 'poppins-semibold';
+  src: url('./fonts/Poppins-SemiBold.ttf')
+}
+
+@font-face {
+  font-family: 'victormono-bold';
+  src: url('./fonts/VictorMono-Bold.ttf')
+}
+
+
+body{
+  background-color: rgb(26, 25, 25);
+  color: white;
+  overflow-x: hidden;
+
+}
+
+
+.cube{
+  width: 100vw;
+  background-color: red;
+  height: 100vh;
+
+
+  display: inline-block;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.flex-cube{
+  width: 100vw;
+  background-color: red;
+
+
+  display: inline-block;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+.graphic{
+  width: 100vw;
+  background-color: rgb(0, 255, 89);
+  height: 100vh;
+
+  display: inline-block;
+  /* background-image: url(./images/main-graphic.jpg); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.main-graphic{
+  width: 100vw;
+  background-color: rgb(112, 112, 112);
+  height: 100vh;
+
+  display: inline-block;
+  background-image: url(./images/abstract.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.main{
+  margin-top: 5vh;
+  text-align: center;
+}
+
+.content-box{
+  width: 90%;
+  margin: auto;
+}
+
+.display-block{
+  display: block;
+}
+
+@media  screen and (min-width: 768px) {
+  .main{
+  margin-top: 3vh;
+  text-align: center;
+}
+
+.main-graphic{
+  height: 100vh ;
+  margin: auto;
+}
+
+.content-box{
+  width: 60%;
+  margin: auto;
+}
+}
+
+.h-30{
+  height: 30vh;
+}
+.h-20{
+  height: 20vh;
+}
+
+.h-10{
+  height: 10vh;
+}
+
+.h-5{
+  height: 5vh;
+}
+
+.h-2{
+  height: 2vh;
+}
+
+.pos-absolute{
+  position: absolute;
+  margin-top: 80px;
+}
+
+.pos-relative{
+  position: relative;
+  margin-top: 80px;
+}
+
+
+.down-button{
+  position: absolute;
+  display: block;
+  margin: auto;
+  left: 50%;
+  top: 90%;
+  width: 7vh;
+  height: 7vh;
+  background-image: url('./images/down-button.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition-duration: 0.5s;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  z-index: 30;
+}
+
+.down-button:hover{
+  cursor: pointer;
+}
+
+
+
+.cover{
+    background-color: rgb(221, 77, 21);
+    width: 100vw;
+    height: 100vh;
+    z-index: 20;
+    position: absolute;
+}
+
+.cover-clear{
+  animation: coverClear 1s ease-in-out forwards;
+
+}
+
+@keyframes coverClear {
+  0% {
+    transform: translateY(0%);
+    opacity: 1;
+    display: block;
+    z-index: 20;
+   
+
+  }
+  90%{
+    opacity: 1;
+
+  }
+  100% {
+    transform: translateY(100%);
+    opacity: 0;
+    display: none;
+    z-index: -1;
+   
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.welcome-lines{
+height: 100%;
+width: 100%;
+  background-image: url('./images/lines.svg');
+  background-size: cover;
+  aspect-ratio: 1/1;
+  text-align: left;
 }
 
-.App-link {
-  color: #61dafb;
+.welcome-button{
+  background-color: rgb(221, 77, 21);
+  margin: 20px 20px 20px 0px;
+  text-align: left;
+  padding: 20px;
+  font-family: neutro-extrabold;
+  font-size: 2.5em;
+  width: initial;
+  display: inline-block;
+  left : 0;
+  animation: buttonEnter 1.5s ease-in-out forwards;
+  color: transparent;
+  -webkit-text-stroke: 1px white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 1200px) { 
+.welcome-button{
+  background-color: rgb(221, 77, 21);
+  margin: 20px 20px 20px 0px;
+  text-align: left;
+  padding: 20px;
+  font-family: neutro-extrabold;
+  font-size: 1.5em;
+  width: initial;
+  display: inline-block;
+  left : 0;
+  animation: buttonEnter 1.5s ease-in-out forwards;
+  color: transparent;
+  -webkit-text-stroke: 1px white;
+}
+}
+
+.welcome-button:hover{
+  cursor: pointer;
+}
+
+@keyframes buttonEnter {
+  0% {
+    transform: translateX(-100%);
+   
+
   }
-  to {
-    transform: rotate(360deg);
+  90%{
+
+  }
+  100% {
+    transform: translateX(0%);
+   
   }
 }

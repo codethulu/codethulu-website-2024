@@ -42,7 +42,7 @@ function AboutCards() {
             defaultColumns={4}
             defaultSpacing={2}
         >
-            <AboutCard title='System-Level Programming' text="I have experience in C, C++ and Rust. I'm proud of the range of system-level projects I've worked on, including my high-achieving final year project at unviersity which was written in Rust. (You can read a bit more about it in my projects list!)" img={img1} orientation='n' background='fire' />
+            <AboutCard title='System-Level Programming' text="I have experience in C, C++ and Rust. I'm proud of the range of system-level projects I've worked on, including my high-achieving final year project at university which was written in Rust. (You can read a bit more about it in my projects list!)" img={img1} orientation='n' background='fire' />
             <AboutCard title='Warwick Alumni' text="I graduated from The University of Warwick with a Bsc in Computer Science in 2023." img={img2} orientation='n' background='purple' />
             <AboutCard title='Web Engineer' text="I am a fully capable full stack web developer, with experience in rebuilding the web app for one of the largest societies at Warwick." img={img4} orientation='m' background='ocean' />
 

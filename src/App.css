@@ -30,8 +30,8 @@ body{
 .cube{
   width: 100vw;
   background-color: red;
-  height: 100vh;
-
+  min-height: 100vh;
+  height: max(100vh, max-content);
 
   display: inline-block;
   text-align: center;

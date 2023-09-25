@@ -104,6 +104,17 @@ h1{
     z-index: 1;
 }
 
+@media (max-width: 1000px) { 
+  .text-size-large{
+    font-size: 3rem;
+}
+h1{
+  font-size: 3rem;
+
+}
+  
+}
+
 @media (max-width: 768px) { 
   .text-size-large{
     font-size: 2rem;

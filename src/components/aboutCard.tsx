@@ -47,7 +47,7 @@ function AboutCards() {
             <AboutCard title='Web Engineer' text="I am a fully capable full stack web developer, with experience in rebuilding the web app for one of the largest societies at Warwick." img={img4} orientation='m' background='ocean' />
 
             <AboutCard title='Creative Design' text="In my spare time, I sometimes paint and draw. My creativity extends to my productive work, where I am proficient in industry-standard design tools and UI/UX design." img={img3} orientation='m' background='grass' />
-            <AboutCard title='Passionate about games' text="I love making games in my spare time, and I have developed my graphics programming and 3D modelling skills. I managed to win the 'Outstanding Technical Achievement' award at the University of Warwick game jame." img={img1} orientation='m' background='rose' />
+            <AboutCard title='Passionate about games' text="I love making games in my spare time, and I have developed my graphics programming and 3D modelling skills. I managed to win the 'Outstanding Technical Achievement' award at the University of Warwick game jam." img={img1} orientation='m' background='rose' />
             {/* <AboutCard title='Programming Polyglot' text="With experience in Java, C, C++, Haskell, Python and Rust, I have gained the valuable skill of working flexibly between programming paradigms." img={img3} orientation='n' background='orange' /> */}
 
 

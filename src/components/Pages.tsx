@@ -16,6 +16,7 @@ import './projectCard.css'
 import './aboutCard.css'
 
 import AboutCards from './aboutCard';
+import Timeline from './careerTimeline';
 
 import {
     Link,
@@ -23,6 +24,7 @@ import {
 } from "react-scroll";
 
 import projectsList from './projectsList';
+import careerList from './careerList';
 import { Masonry } from '@mui/lab';
 
 import twitter_logo from '../images/twitter_logo.svg';
@@ -32,11 +34,14 @@ import github_logo from '../images/github-logo.svg';
 import ScrollAnimation from 'react-animate-on-scroll';
 
 
+
+
 function Pages() {
     return (
         <div>
             <Intro />
             <About />
+            <Career />
             <Projects />
             {/* <Cube /> */}
             <ContactPage />
@@ -97,26 +102,22 @@ function About() {
             <ParallaxProvider>
                 <h1 className='text-outline'>About Me</h1>
                 <div className='content-box'>
-
-
-
-                    {/* <Masonry
-                        columns={{ xs: 1, sm: 2, md: 2, lg: 2, xl: 3 }}
-                        spacing={2}
-                        defaultHeight={50}
-                        defaultColumns={4}
-                        defaultSpacing={2}
-                    >
-                        <div className='skill-card'>Hello</div>
-                        <div className='skill-card'>Hello</div>
-                        <div className='skill-card'>Hello</div>
-                        <div className='skill-card'>Hello</div>
-
-                    </Masonry> */}
-
                     <AboutCards />
+                </div>
+                <div className='h-10'></div>
 
+            </ParallaxProvider>
+        </div>
+    )
+}
 
+function Career() {
+    return (
+        <div className='flex-cube bg-colour-black'>
+            <ParallaxProvider>
+                <h1 className='text-outline'>Career</h1>
+                <div className='content-box'>
+                    <Timeline />
                 </div>
                 <div className='h-10'></div>
 

@@ -9,6 +9,7 @@ interface TimelineCardProps {
     name: string,
     startYear: string,
     endYear: string,
+    role: string,
     description: string,
 }
 
@@ -25,6 +26,7 @@ function TimelineCard(props: TimelineCardProps) {
                     <ScrollAnimation animateIn="animate__fadeInRight" animateOnce >
                         <div className="timeline-card">
                             <h1>{props.name}</h1>
+                            <h3>{props.role}</h3>
                             <h3>{props.startYear + "-" + props.endYear}</h3>
                             <p>{props.description}</p>
                         </div>
@@ -42,9 +44,9 @@ function Timeline() {
     return (
 
         <>
-            {careerList.map((e: { name: string; startYear: string; endYear: string; description: string; }) => {
+            {careerList.map((e: { name: string; startYear: string; endYear: string; role: string; description: string; }) => {
                 return (
-                    <TimelineCard name={e.name} startYear={e.startYear} endYear={e.endYear} description={e.description} />
+                    <TimelineCard name={e.name} startYear={e.startYear} endYear={e.endYear} role={e.role} description={e.description} />
                 );
 
             }

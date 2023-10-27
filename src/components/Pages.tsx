@@ -41,7 +41,7 @@ function Pages() {
         <div>
             <Intro />
             <About />
-            <Career />
+            {/* <Career /> */}
             <Projects />
             {/* <Cube /> */}
             <ContactPage />

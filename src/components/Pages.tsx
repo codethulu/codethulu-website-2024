@@ -186,33 +186,41 @@ function ContactPage() {
                     <ScrollAnimation animateIn="animate__fadeIn" >
                         <a href='mailto: brendan@codethulu.dev'><button className='contact-button bg-colour-off-white'>
                             <h3>Email</h3>
-                            <div className='contact-divider'></div>
-                            <img src={email_logo} className='contact-logo' alt='email icon'></img>
-                            <div className='contact-divider'></div>
+                            <div className='contact-button-decoration'>
+                                <div className='contact-divider'></div>
+                                <img src={email_logo} className='contact-logo' alt='email icon'></img>
+                                <div className='contact-divider'></div>
+                            </div>
                             brendan@codethulu.dev
                         </button></a>
 
                         <a href='https://github.com/codethulu'><button className='contact-button bg-colour-off-white'>
                             <h3>Github</h3>
-                            <div className='contact-divider'></div>
-                            <img src={github_logo} className='contact-logo' alt='github logo'></img>
-                            <div className='contact-divider'></div>
+                            <div className='contact-button-decoration'>
+                                <div className='contact-divider'></div>
+                                <img src={github_logo} className='contact-logo' alt='github logo'></img>
+                                <div className='contact-divider'></div>
+                            </div>
                             github.com/codethulu
                         </button></a>
 
                         <a href='https://www.linkedin.com/in/brendan-bell-34b282202/'><button className='contact-button bg-colour-off-white'>
                             <h3>LinkedIn</h3>
-                            <div className='contact-divider'></div>
-                            <img src={linkedin_logo} className='contact-logo' alt='linked in logo'></img>
-                            <div className='contact-divider'></div>
+                            <div className='contact-button-decoration'>
+                                <div className='contact-divider'></div>
+                                <img src={linkedin_logo} className='contact-logo' alt='linked in logo'></img>
+                                <div className='contact-divider'></div>
+                            </div>
                             Brendan Bell
                         </button></a>
 
                         <a href='https://twitter.com/Codethulu_'><button className='contact-button bg-colour-off-white'>
                             <h3>Twitter</h3>
-                            <div className='contact-divider'></div>
-                            <img src={twitter_logo} className='contact-logo' alt='twitter logo'></img>
-                            <div className='contact-divider'></div>
+                            <div className='contact-button-decoration'>
+                                <div className='contact-divider'></div>
+                                <img src={twitter_logo} className='contact-logo' alt='twitter logo'></img>
+                                <div className='contact-divider'></div>
+                            </div>
                             @Codethulu_
                         </button></a>
                     </ScrollAnimation>

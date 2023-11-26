@@ -41,7 +41,7 @@ function Pages() {
         <div>
             <Intro />
             <About />
-            {/* <Career /> */}
+            <Career />
             <Projects />
             {/* <Cube /> */}
             <ContactPage />
@@ -86,7 +86,7 @@ function Intro() {
                     />
                     <div className='h-5'></div>
                     <h3>My name is Brendan<span className='subtext'>[He/Him]</span> and I am a Software Engineer and Computer Scientist.</h3>
-                    <p>After completing my studies at the University of Warwick I have continued to undertake a broad range of exciting new challenges, and I can't wait to start the next one.</p>
+                    <p>Currently I'm working with Canonical to deliver Ubuntu, and industry-standard open source software as a DevOps Engineer. </p>
                 </div>
 
             </ParallaxProvider>

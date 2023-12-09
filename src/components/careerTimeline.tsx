@@ -4,7 +4,6 @@ import careerList from './careerList';
 import './careerTimeline.css'
 
 
-
 interface TimelineCardProps {
     name: string,
     startYear: string,
@@ -15,12 +14,20 @@ interface TimelineCardProps {
 
 function TimelineCard(props: TimelineCardProps) {
     return (
-        <>
-            <div className='career-card'>
-                <div className="timeline-label">
-                    <h2>{props.startYear}</h2>
-                    <div className="timeline-line"></div>
+        <div className="timeline-container">
+            <div className="timeline-label">
+                <h2>{props.startYear}</h2>
+
+            </div>
+            <div className="timeline-line">
+                <div className="timeline-stop-container">
+                    <ScrollAnimation animateIn="animate__bounceIn" animateOnce >
+                        <div className="timeline-stop"></div>
+                    </ScrollAnimation>
                 </div>
+            </div>
+            <div className='career-card'>
+                {/*  */}
 
                 <div className="timeline-card-container">
                     <ScrollAnimation animateIn="animate__fadeInRight" animateOnce >
@@ -35,7 +42,7 @@ function TimelineCard(props: TimelineCardProps) {
 
             </div>
 
-        </>
+        </div>
     )
 }
 

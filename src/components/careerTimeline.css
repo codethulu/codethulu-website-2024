@@ -1,5 +1,8 @@
 .career-card{
-    text-align: left;
+    display: inline-block;
+    width: calc(100% - 15% - 10px);
+    text-align: right;
+    right: 0;
 }
 
 .career-card h2{
@@ -7,25 +10,59 @@
     display: inline-block;
     vertical-align: middle;
     margin-right: 20%;
+
+}
+
+.timeline-container{
+    vertical-align: middle;
+    height: 30vh;
+    text-align: left;
+    vertical-align: middle;
 }
 
 .timeline-line{
     display: inline-block;
-    height: 40vh;
+    height: 100%;
     width: 10px;
     background-color: rgb(221, 77, 21);
     vertical-align: middle;
+
+
+}
+
+.timeline-stop{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(221, 77, 21);
+    /* top: calc(50% - 20px);
+    position: relative; */
+    /* translate square 50% to left:  */
+    transform: translateX(-15px) rotate(45deg);
+
+
+}
+
+.timeline-stop-container{
+    top: calc(50% - 20px);
+    position: relative;
 
 }
 
 .timeline-label{
     display: inline-block;
-    width: 20%;
+    width: 15%;
+     font-family: Neutro-ExtraBold;
+     vertical-align: middle;
 }
 
 .timeline-card-container{
     display: inline-block;
-    width: 80%;
+    width: 95%;
+    position: relative;
+    /* margin-left: 20%; */
+    vertical-align: middle;
+    text-align: right;
+       
 
 }
 
@@ -70,23 +107,29 @@
     font-family: Neutro-ExtraBold;
     display: inline-block;
     vertical-align: middle;
-    margin-right: 10%;
     font-size: 1em;
 }
   
 }
 
-@media (max-width: 800px) { 
+@media (max-width: 1200px) { 
     .career-card{
         text-align: center;
+        display: inline-block;
+        width: 100%;
     }
     .timeline-label{
+        display: none;
+    }
+    .timeline-line{
         display: none;
     }
   
     .timeline-card-container{
     display: inline-block;
     width: 100%;
+    text-align: right;
+
 
 }
 }

@@ -86,7 +86,7 @@ function Intro() {
                     />
                     <div className='h-5'></div>
                     <h3>My name is Brendan<span className='subtext'>[He/Him]</span> and I am a Software Engineer and Computer Scientist.</h3>
-                    <p>Currently I'm working with Canonical to deliver Ubuntu, and industry-standard open source software as a DevOps Engineer. </p>
+                    <p>Currently I'm working with Canonical to deliver Ubuntu and support open-source software solutions. </p>
                 </div>
 
             </ParallaxProvider>

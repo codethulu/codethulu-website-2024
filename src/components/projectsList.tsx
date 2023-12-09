@@ -218,14 +218,14 @@ const projectsList = [
     {
         name: "OMEGA DAY",
         year: "2023",
-        description: "A First Person Shooter game written using three js. The game consists of a gravity and collision system written from scratch, and artificial inteeligence for enemies. Each enemy takes in multiple input nodes and calculates correct bahviour using a simple neural network.",
+        description: "A First Person Shooter game written using three js. The game consists of a gravity and collision system written from scratch, and artificial inteeligence for enemies. Each enemy takes in multiple input nodes and calculates correct behaviour using a simple neural network.",
         tags: ["javascript", "opengl", "games", "ai"],
         image: "cs324",
     },
     {
         name: "Overthrow Synthetica",
         year: "2023",
-        description: "A First Person Shooter game written using three js. The game consists of a gravity and collision system written from scratch, and artificial inteeligence for enemies. Each enemy takes in multiple input nodes and calculates correct bahviour using a simple neural network.",
+        description: "A game written for Warwick Game Jam 2023, which was awarded the prize for technical achievement. Under a theme of building a game with 'retro' elements, a cyberpunk city was built with custom-made 3D models, animations and path finding. WebGL shaders were used to create light bloom effects and a pixellated filter pass to create a distinct aesthetic.",
         tags: ["typescript", "opengl", "games", "ai", "webpack"],
         image: "synthetica",
     },

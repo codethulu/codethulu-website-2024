@@ -267,7 +267,7 @@ function Footer() {
     return (
         <div className='footer'>
 
-            © Brendan Bell 2023
+            © Brendan Bell 2024
 
         </div>
     )

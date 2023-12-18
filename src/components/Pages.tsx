@@ -85,8 +85,8 @@ function Intro() {
 
                     />
                     <div className='h-5'></div>
-                    <h3>My name is Brendan<span className='subtext'>[He/Him]</span> and I am a Software Engineer and Computer Scientist.</h3>
-                    <p>Currently I'm working with Canonical to deliver Ubuntu and support open-source software solutions. </p>
+                    <h3>My name is Brendan<span className='colour-off-white subtext'> [He/Him]</span> and I am a Software Engineer and Computer Scientist.</h3>
+                    <p className='colour-off-white'>Currently I'm working with Canonical to deliver Ubuntu and support open-source software solutions. </p>
                 </div>
 
             </ParallaxProvider>
@@ -182,44 +182,44 @@ function ContactPage() {
                 <div className='content-box'>
 
                     <h3>Let's get in touch!</h3>
-                    <p>If you would like to speak about any of my work, or connect on any platforms, I'm always looking to meet with people in the industry. </p>
+                    <p className='colour-off-white'>If you would like to speak about any of my work, or connect on any platforms, I'm always looking to meet with people in the industry. </p>
                     <ScrollAnimation animateIn="animate__fadeIn" >
                         <a href='mailto: brendan@codethulu.dev'><button className='contact-button bg-colour-off-white'>
-                            <h3>Email</h3>
+                            <h3 className='colour-black'>Email</h3>
                             <div className='contact-button-decoration'>
-                                <div className='contact-divider'></div>
+                                <div className='bg-colour-black contact-divider'></div>
                                 <img src={email_logo} className='contact-logo' alt='email icon'></img>
-                                <div className='contact-divider'></div>
+                                <div className='bg-colour-black contact-divider'></div>
                             </div>
                             brendan@codethulu.dev
                         </button></a>
 
                         <a href='https://github.com/codethulu'><button className='contact-button bg-colour-off-white'>
-                            <h3>Github</h3>
+                            <h3 className='colour-black'>Github</h3>
                             <div className='contact-button-decoration'>
-                                <div className='contact-divider'></div>
+                                <div className='bg-colour-black contact-divider'></div>
                                 <img src={github_logo} className='contact-logo' alt='github logo'></img>
-                                <div className='contact-divider'></div>
+                                <div className='bg-colour-black contact-divider'></div>
                             </div>
                             github.com/codethulu
                         </button></a>
 
                         <a href='https://www.linkedin.com/in/brendan-bell-34b282202/'><button className='contact-button bg-colour-off-white'>
-                            <h3>LinkedIn</h3>
+                            <h3 className='colour-black'>LinkedIn</h3>
                             <div className='contact-button-decoration'>
-                                <div className='contact-divider'></div>
+                                <div className='bg-colour-black contact-divider'></div>
                                 <img src={linkedin_logo} className='contact-logo' alt='linked in logo'></img>
-                                <div className='contact-divider'></div>
+                                <div className='bg-colour-black contact-divider'></div>
                             </div>
                             Brendan Bell
                         </button></a>
 
                         <a href='https://twitter.com/Codethulu_'><button className='contact-button bg-colour-off-white'>
-                            <h3>Twitter</h3>
+                            <h3 className='colour-black'>Twitter</h3>
                             <div className='contact-button-decoration'>
-                                <div className='contact-divider'></div>
+                                <div className='bg-colour-black contact-divider'></div>
                                 <img src={twitter_logo} className='contact-logo' alt='twitter logo'></img>
-                                <div className='contact-divider'></div>
+                                <div className='bg-colour-black contact-divider'></div>
                             </div>
                             @Codethulu_
                         </button></a>

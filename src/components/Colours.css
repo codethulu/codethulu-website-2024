@@ -1,19 +1,42 @@
 .bg-colour-black{
-    background-color: #1a1919;
+    background-color: #2a2525;
 }
 
 .bg-colour-off-white{
-    background-color: rgb(214, 208, 203);
+    background-color: rgb(234, 215, 206);
+}
+
+.bg-white{
+    color: white;
 }
 
 .bg-transparent{
     background-color: transparent;
 }
 
+.bg-colour-fire {
+    background-color: rgb(221, 77, 21);
+}
+
+.bg-gradient-black-fire{
+    background: linear-gradient(180deg, #2a2525 0%, rgb(221, 77, 21) 20%);
+}
+
+.bg-gradient-fire-black{
+    background: linear-gradient(180deg, rgb(221, 77, 21) 80%, #2a2525 100%);
+}
 .colour-white{
     color: white;
 }
 
 .colour-black{
-    color: rgb(26, 25, 25);
+    color: #2a2525;
+}
+
+.colour-ash{
+    color: #89736f;
+}
+
+.colour-off-white{
+    color: rgb(223, 203, 188);
 }

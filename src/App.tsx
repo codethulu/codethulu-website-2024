@@ -78,13 +78,7 @@ function Welcome() {
   )
 }
 
-function Cube() {
-  return (
-    <div className='cube graphic'>
 
-    </div>
-  )
-}
 
 function Main(props: any) {
   return (

@@ -24,7 +24,6 @@
     text-align: center;
     margin: 0px;
     padding: 0px;
-    color: black;
     font-family: Neutro-Extrabold;
     font-size: 1.5em;
 }
@@ -63,7 +62,6 @@
     margin-block: 10px;
     height: 5px;
     width: 100% -5px;
-    background-color: black;
 }
 
 .contact-button:hover{
@@ -107,7 +105,6 @@
         text-align: center;
         margin: 0px;
         padding: 0px;
-        color: black;
         font-family: Neutro-Extrabold;
         font-size: 1.5em;
     }

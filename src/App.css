@@ -18,10 +18,16 @@
   src: url('./fonts/VictorMono-Bold.ttf')
 }
 
+@font-face{
+  font-family: 'clash-medium';
+  src: url('./fonts/ClashDisplay-Medium.otf')
+
+}
+
 
 
 html, body{
-  background-color: rgb(26, 25, 25);
+  background-color: #2a2525;
   color: white;
   overflow-x: hidden;
 
@@ -63,11 +69,10 @@ html, body{
 
 .main-graphic{
   width: 100vw;
-  background-color: rgb(112, 112, 112);
   height: 100vh;
 
   display: inline-block;
-  background-image: url(./images/abstract.png);
+  /* background-image: url(./images/abstract.png); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

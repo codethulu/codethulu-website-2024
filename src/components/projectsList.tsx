@@ -55,7 +55,7 @@ const projectsList = [
         name: "Investigating security vulnerabilities in Linux",
         year: "2021",
         description: "An investigation into linux security, where I identified possible security errors in a linux filesystem and webserver.",
-        tags: ["linux"],
+        tags: ["linux", "security"],
         image: "security-linux",
     },
     {

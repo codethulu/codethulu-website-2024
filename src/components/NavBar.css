@@ -4,7 +4,6 @@
     width: 100%;
     z-index: 50;
     height: 3vh;
-    background-color: rgb(26, 25, 25);
     color: white;
     background-size: contain;
     background-position: bottom;
@@ -45,7 +44,6 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgb(26, 25, 25);
     content: "";
     clip-path: polygon(0 0, 100% 0, 100% 80%, 0 80%);
     z-index: -1;

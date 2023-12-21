@@ -50,7 +50,7 @@ export default App;
 
 function Welcome() {
   return (
-    <div className='cube main-graphic'>
+    <div className='cube main-graphic bg-colour-black'>
       <Element name="home" className="element"></Element>
       <div className='cover bg-colour-black cover-clear'></div>
       <TextLogo />

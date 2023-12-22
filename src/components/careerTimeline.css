@@ -125,7 +125,9 @@
     display: inline-block;
     width: 100%;
     text-align: right;
-
-
 }
+.timeline-container{
+    height: auto;
+}
+
 }

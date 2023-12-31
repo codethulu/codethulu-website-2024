@@ -40,8 +40,8 @@ function Pages() {
     return (
         <div>
             <Intro />
-            <About />
             <Career />
+            <About />
             <Projects />
             {/* <Cube /> */}
             <ContactPage />
